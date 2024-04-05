@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero-map"></div>
       <div className="relative z-20 flex flex-col xl:w-1/2">
         <Image
-          src="/camp.svg"
+          src="camp.svg"
           alt="camp"
           width={50}
           height={50}
@@ -29,7 +29,7 @@ function Hero() {
               .fill(1)
               .map((_, index) => (
                 <Image
-                  src="/star.svg"
+                  src="star.svg"
                   key={index}
                   alt="star"
                   width={24}
@@ -53,7 +53,7 @@ function Hero() {
         <div className="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-900 px-7 py-8">
           <div className="flexBetween">
             <p className="regular-16 text-gray-50">Location</p>
-            <Image src="/close.svg" alt="close" width={24} height={24} />
+            <Image src="close.svg" alt="close" width={24} height={24} />
           </div>
           <p className="bold-20 text-white">Aguas Calientees</p>
         <div className="flexBetween">
