@@ -168,7 +168,7 @@ body {
   background-image:  url(/pattern.png);
 }
 .hero-map{
-  background-image: url(/pattern-bg.png);
+  background-image: url(pattern-bg.png);
   top: -10rem;
   right: 10rem;
 }
